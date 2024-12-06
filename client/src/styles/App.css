@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e9ecef;
+  color: #333;
+}
+
+button {
+  font-family: inherit;
+}
+
+h1, h2 {
+  text-align: center;
+}

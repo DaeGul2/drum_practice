@@ -1,0 +1,53 @@
+.practice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+  }
+  
+  .countdown {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ff4500;
+  }
+  
+  h1, h2 {
+    margin: 20px 0;
+  }
+  
+  .metronome-sound {
+    font-size: 24px;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .control-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .control-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .reset-btn {
+    background-color: #28a745;
+  }
+  
+  .reset-btn:hover {
+    background-color: #218838;
+  }
+  
