@@ -12,9 +12,9 @@ function Home() {
         <button onClick={() => navigate("/auto-bpm")} className="btn">
           자동 BPM 연습
         </button>
-        <button onClick={() => navigate("/fixed-bpm")} className="btn">
+        {/* <button onClick={() => navigate("/fixed-bpm")} className="btn">
           고정 BPM 연습
-        </button>
+        </button> */}
       </div>
     </div>
   );

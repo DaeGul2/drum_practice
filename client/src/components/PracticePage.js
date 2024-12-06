@@ -127,7 +127,7 @@ function PracticePage() {
           <h1>현재 BPM: {currentBPM}</h1>
           <h2>현재 속도: {noteSpeeds[noteIndex]}</h2>
           <h3>현재 마디: {currentMeasure+1}</h3>
-          <p className="metronome-sound">틱... 탁... 틱... 탁...</p>
+         
           <div className="button-group">
             <button onClick={toggleRunning} className="control-btn">
               {isRunning ? "멈춤" : "다시 시작"}
